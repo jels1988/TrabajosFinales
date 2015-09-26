@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_form_vertical_margin"
+    android:paddingLeft="@dimen/activity_form_horizontal_margin"
+    android:paddingRight="@dimen/activity_form_horizontal_margin"
+    android:paddingTop="@dimen/activity_form_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/activity_margin_right"
+            android:layout_marginTop="@dimen/activity_margin_top"
+            android:baselineAlignBottom="true"
+            android:src="@drawable/ic_search_black_24dp"
+            android:alpha="0.50" />
+
+        <EditText
+            android:id="@+id/txtBusquedaProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:singleLine="true" />
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvProducto"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+</LinearLayout>

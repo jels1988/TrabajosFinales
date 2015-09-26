@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainContainerPadding">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvProject"
+        style="@style/CardView.Light">
+
+        <RelativeLayout style="@style/CardViewContainer">
+
+            <ImageView
+                android:id="@+id/ivProject"
+                style="@style/CardViewProjectImagen"
+                android:src="@drawable/product" />
+
+            <TextView
+                android:id="@+id/tvCodigoProductoEditar"
+                style="@style/CardViewProjectTitle" />
+
+            <TextView
+                android:id="@+id/tvDescripcionProductoEditar"
+                style="@style/CardViewProjectDetail"
+                android:layout_below="@+id/tvCodigoProductoEditar" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        style="@style/PaddingTextView">
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/Order_unit" />
+
+        <TextView
+            android:id="@+id/tvUnidadEditar"
+            style="@style/TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+
+            android:textColor="@color/AppThemecolorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        style="@style/PaddingTextView">
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/Order_price" />
+
+        <TextView
+            android:id="@+id/tvPrecioEditar"
+            style="@style/TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+
+            android:textColor="@color/AppThemecolorAccent" />
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilCantidadProductoNuevo"
+        style="@style/TextInputLayout">
+
+        <EditText
+            android:id="@+id/etCantidadProducto"
+            style="@style/EditText"
+            android:hint="@string/Order_amount"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btAdicionarProducto"
+            android:text="@string/Button_add"
+            style="@style/Buttom"
+            android:clickable="true"
+            android:background="@drawable/ripple_blue" />
+
+        <Button
+            android:id="@+id/btCancelar"
+            android:text="@string/Button_cancel"
+            style="@style/Buttom"
+            android:clickable="true"
+            android:background="@drawable/ripple_blue" />
+    </LinearLayout>
+
+
+</LinearLayout>
+

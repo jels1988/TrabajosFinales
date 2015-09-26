@@ -1,0 +1,212 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainContainerPadding">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvProject"
+            style="@style/CardView.Light">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/PaddingContainer">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_person_black_18dp"
+                        android:alpha="0.7"
+                        android:paddingRight="@dimen/PaddingContainer"
+                        android:layout_gravity="center"
+                        android:id="@+id/ivProject"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tvNombreClientePedido"
+                        style="@style/ClientItemContainerName" />
+
+                    <TextView
+                        android:id="@+id/tvRucPedido"
+                        android:layout_below="@+id/tvNombreClente"
+                        style="@style/ClientItemContainerDetail"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="@string/Order_condition"
+                style="@style/TextView"/>
+
+            <Spinner
+                android:id="@+id/spCondicionPago"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:textSize="30px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Order_date"
+                android:gravity="left"
+                style="@style/TextView"/>
+
+
+
+            <TextView
+                android:id="@+id/tvFechaPedido"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+
+                android:textColor="@color/AppThemecolorAccent"
+                style="@style/TextView" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/Order_detail"
+            android:textColor="@color/TextView"
+            android:textSize="@dimen/TitleTextViewtextSize" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btagregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:clickable="true"
+            android:src="@drawable/ic_add_white_18dp"
+            app:backgroundTint="@color/backgroundTint" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/ContainerTitle">
+
+        <TextView
+            style="@style/Title"
+            android:layout_weight="2"
+            android:text="@string/Order_code" />
+
+        <TextView
+            style="@style/Title"
+            android:layout_weight="4"
+            android:text="@string/Order_product" />
+
+        <TextView
+            style="@style/Title"
+            android:layout_weight="1"
+            android:text="@string/Order_unit" />
+
+        <TextView
+            style="@style/Title"
+            android:layout_weight="2"
+            android:text="@string/Order_amount" />
+
+        <TextView
+            style="@style/Title"
+            android:layout_weight="2"
+            android:text="@string/Order_price" />
+
+        <TextView
+            style="@style/Title"
+            android:layout_weight="2"
+            android:text="@string/Order_sub_total" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvDetallePedido"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:background="@color/Grey600"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="1dp">
+
+        <TextView
+            android:background="@color/White"
+            style="TextSizePedidoTotal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="@string/Order_total" />
+
+        <TextView
+            android:background="@color/White"
+            android:id="@+id/tvTotal"
+            style="TextSizePedidoTotal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btGrabarPedido"
+            style="@style/Buttom"
+            android:layout_width="match_parent"
+            android:text="@string/Button_save"
+            android:clickable="true"
+            android:background="@drawable/ripple_blue"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

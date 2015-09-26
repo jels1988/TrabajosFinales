@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dos"
+    android:background="@drawable/tarjeta"
+    android:orientation="vertical"
+    android:padding="@dimen/margen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dos"
+            android:layout_weight="1"
+            android:text="@string/ifecha_atencion" />
+
+        <TextView
+            android:id="@+id/itvFechaAtencion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dos"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/imotivo" />
+
+    <TextView
+        android:id="@+id/itvMotivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/itvIdAtencion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dos"
+        android:text="@string/itratamiento" />
+
+    <TextView
+        android:id="@+id/itvTratamiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="6"
+        android:singleLine="false" />
+
+
+</LinearLayout>

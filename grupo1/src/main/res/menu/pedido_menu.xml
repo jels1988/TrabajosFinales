@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pe.lindley.tomapedidos.PedidoActivity">
+    <item
+        android:id="@+id/pedidomenu_nuevoarticulo_item"
+        android:orderInCategory="100"
+        android:title="@string/txt_nuevoproducto"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/pedidomenu_eliminararticulos_item"
+        android:orderInCategory="100"
+        android:title="@string/txt_eliminartodoproducto"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pedidomenu_ubicacioncliente_item"
+        android:orderInCategory="100"
+        android:title="@string/txt_ubicacioncliente"
+        app:showAsAction="never" />
+</menu>

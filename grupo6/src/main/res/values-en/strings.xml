@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre de apliacion. -->
+    <string name="app_name">FerconsaOrder</string>
+
+    <string name="Login_user">User</string>
+    <string name="Login_password">Passowrd</string>
+    <string name="Login_button">Sign In</string>
+    <string name="Search_Client">Search Client by Business name or RUC</string>
+    <string name="Search_Pedido">Search Nº of Order or Client name</string>
+    <string name="Order_detail">Order Detail</string>
+    <string name="Order_code">Code</string>
+    <string name="Order_unit">Uni</string>
+    <string name="Order_product">Product</string>
+    <string name="Order_amount">Amount</string>
+    <string name="Order_price">Price</string>
+    <string name="Order_sub_total">Sub Total</string>
+    <string name="Order_total">Total</string>
+    <string name="Order_condition">Payment condition</string>
+    <string name="Order_date">Order Date</string>
+    <string name="Search_product">Search product Description or Code</string>
+    <string name="Button_add">Add</string>
+    <string name="Button_cancel">Cancel</string>
+    <string name="Button_update">Update</string>
+    <string name="Button_remove">Remove</string>
+    <string name="Button_save">Save</string>
+    <string name="Order_number">N° Order</string>
+    <string name="Order_client">Business name</string>
+    <string name="Order_search">Search by Business Name or N°. Order</string>
+    <string name="MenuClient">Register Order</string>
+    <string name="MenuOrder">List Orders</string>
+    <string name="MenuSynchronize">Synchronize</string>
+    <string name="Client_name">Business name</string>
+    <string name="Client_RUC">RUC</string>
+    <string name="Client_address">Address</string>
+    <string name="Client_phone">Telephone Number</string>
+    <string name="Client_Latitud">Latitude</string>
+    <string name="Client_Longitud">Length</string>
+    <string name="Product_sync">Synchronizing Products</string>
+    <string name="Product_sync_cancel">Cancel</string>
+    <string name="Sign_Out">Sign Out</string>
+
+
+
+
+
+
+    <!-- <string name="app_name">Toolbar</string> -->
+    <!-- botones de accion de toolbar -->
+    <!-- toolbar login -->
+    <string name="action_login_editar">Edit</string>
+    <string name="action_login_adicionar">Add</string>
+    <string name="action_settings">Settings</string>
+    <!-- toolbar menu principal -->
+    <string name="action_menupri_login">Login</string>
+    <string name="action_menupri_cerrarapp">Sign Out</string>
+    <!-- botones de accion de toolbar -->
+    <string name="subtitulo_activity_login">Login</string>
+    <string name="subtitulo_activity_menuprincipal">Main</string>
+    <!-- Etiquetas de  botones. -->
+    <!-- Login. -->
+    <string name="button_login_acceder">Sign In</string>
+    <string name="title_activity_clentes">Client</string>
+
+
+    <string name="title_activity_producto">Product</string>
+    <string name="title_activity_pedido">Order</string>
+    <string name="title_activity_peidido_cabecera">PeididoCabeceraActivity</string>
+    <string name="title_activity_producto_detalle">ProductoDetalleActivity</string>
+    <string name="title_activity_pruducto_item_editar">PruductoItemEditarActivity</string>
+    <string name="title_activity_producto_item_editar">ProductoItemEditarActivity</string>
+    <string name="title_activity_pedido_detalle_item_nuevo">PedidoDetalleItemNuevoActivity</string>
+    <string name="title_activity_pedido_detalle_item_editar">PedidoDetalleItemEditarActivity</string>
+    <!-- Base application theme. -->
+
+
+
+
+
+
+    <string name="title_activity_ud_client">UdClientActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_clientes">Client</string>
+    <string name="title_activity_pedido_listar">ListarPedidos</string>
+    <string name="title_activity_pedido_detalle_editar_item">Editar detalle de pedido
+    </string>
+    <string name="title_activity_pedido_detalle_nuevo_item">Detalle de pedido</string>
+    <string name="title_activity_pedido_cabecera">Listar Pedidos</string>
+
+
+    <string name="SearchProduct">Search Product by Description or Code</string>
+    <string name="title_activity_cliente_detalle">Client Detail</string>
+    <string name="title_activity_sincronizar">Synchronize</string>
+</resources>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".CrearCuentaActivity">
+
+    <item android:id="@+id/action_crear_cuenta"
+        app:showAsAction="ifRoom|withText"
+        android:title="Guardar"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="1"
+        />
+
+</menu>

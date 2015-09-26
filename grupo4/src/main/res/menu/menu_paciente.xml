@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="grupo4.histoclici.ActivityPaciente">
+
+    <item
+        android:id="@+id/a_GuardarPaciente"
+        android:title="@string/paciente"
+        android:icon="@drawable/guardar"
+        app:showAsAction="ifRoom"/>
+
+</menu>

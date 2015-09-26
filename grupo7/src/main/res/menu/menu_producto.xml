@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ProductoActivity">
+
+    <item android:id="@+id/guardarpedido"
+        app:showAsAction="never"
+        android:title="Enviar Productos"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="1"
+        />
+</menu>

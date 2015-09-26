@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Toma Pedidos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- textos para la actividad de ingreso  -->
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_ingresar">Ingresar</string>
+    <string name="txt_nombreaplicacion">Sistema de Preventa Móvil - Lindley</string>
+    <string name="txt_mensajeerror">Usuario y/o Password no válido</string>
+
+    <!-- textos para la actividad main (de bienvenida)  -->
+    <string name="txt_bienvenido">Bienvenido al Sistema de Preventa Móvil - Lindley</string>
+    <!-- textos para drawer                             -->
+    <string name="txt_iniciodia">Inicio de Día</string>
+    <string name="txt_preventa">Preventa</string>
+    <string name="txt_estadistica">Estadísticas</string>
+    <string name="txt_cierredia">Cierre de Día</string>
+    <string name="txt_cerrarsesion">Cerrar Sesión</string>
+    <string name="title_activity_clientes">ClientesActivity</string>
+    <!-- Texto en Clientes -->
+    <string name="txt_clientebuscar">Cliente a Buscar</string>
+    <!-- Texto en Clientes - Item (Para el ListView) -->
+    <string name="txt_clienteid">Cliente Id</string>
+    <string name="txt_clientenit">NIT</string>
+    <!-- Validaciones -->
+    <string name="txt_errorusuario">Usuario no válido</string>
+    <string name="txt_errorpassword">Password no válido</string>
+    <string name="txt_errorusuariopassword">Usuario y/o Password no válido(s)</string>    <!-- Textos del menú cliente -->
+    <string name="txt_nuevoproducto">Agregar Producto</string>
+    <string name="txt_eliminartodoproducto">Eliminar todos los Producto</string>
+    <string name="txt_ubicacioncliente">Ubicación del Cliente</string>
+    <!-- Texto en Productos - Item (Para el ListView) -->
+    <string name="txt_productoid">Producto Id</string>
+    <string name="txt_cantidad">Cantidad</string>
+    <!-- Texto en Productos -->
+    <string name="txt_productobuscar">Producto a Buscar</string>
+    <!-- Varios -->
+    <string name="txt_separador">:</string>
+    <string name="txt_guardar">Guardar</string>
+    <string name="txt_eliminar">Eliminar</string>
+    <!-- estadisticas - Item (Para el ListView) -->
+    <string name="txt_totalclientes">Cartera Total de Clientes</string>
+    <string name="txt_clientesconpedido">Cantidad de Clientes con Pedido</string>
+    <string name="txt_clientessinpedido">Cantidad de Clientes sin Pedido</string>
+    <string name="txt_cumplimientoplandevisita">Cumplimiento de Plan de Visita</string>
+    <string name="title_activity_ubicacion_cliente">UbicacionClienteActivity</string>
+</resources>

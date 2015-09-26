@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margen"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_Paciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paciente" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margen"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/cero"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fecha"
+            android:maxLength="10"
+            />
+
+        <EditText
+            android:id="@+id/et_Fecha"
+            android:layout_width="@dimen/cero"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/naranja"
+            android:hint="@string/fecha"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margen"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Motivo"
+
+
+            />
+
+        <EditText
+            android:id="@+id/et_Motivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/naranja"
+            android:hint="@string/Motivo"
+            android:maxLines="3"
+            android:singleLine="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margen"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tratamiento"
+            />
+
+        <EditText
+            android:id="@+id/et_Tratamiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/naranja"
+            android:hint="@string/Tratamiento"
+            android:maxLines="6"
+            android:singleLine="false"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

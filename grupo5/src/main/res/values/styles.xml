@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:textColor">#000000</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowActionBar">false</item>-->
+        <item name="colorPrimary">#4caf50</item>
+        <item name="colorPrimaryDark">#388e3c</item>
+        <item name="colorAccent">#8bc34a</item>
+    </style>
+
+    <style name="spNA" parent="Widget.AppCompat.Spinner">
+        <!--<item name="android:background">#FFFFFF</item>-->
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!--<style name="etLogin" parent="Widget.AppCompat.EditText">-->
+        <!--<item name="android:layout_width">150dp</item>-->
+    <!--</style>-->
+
+    <style name="btClinica" parent="Widget.AppCompat.Button">
+        <item name="android:background">#388e3c</item>
+        <item name="android:textColor">#E8F5E9</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="tvNoEditable" parent="">
+        <item name="android:background">#E8F5E9</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_bottom"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/hint_codigo"
+            android:inputType="number"
+            android:maxLength="8"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilNombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/hint_nombres"
+            android:inputType="textPersonName"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilApellidoPaterno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/hint_apellido_paterno"
+            android:inputType="textPersonName"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilApellidoMaterno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/hint_apellido_materno"
+            android:inputType="textPersonName"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/hint_direccion"
+            android:inputType="text"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/spTipoDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilCoordenadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint="@string/hint_coordenadas"
+            android:inputType="text"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

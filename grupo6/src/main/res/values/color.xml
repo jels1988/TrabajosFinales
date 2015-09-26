@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Red">#F44336</color>
+    <color name="Pink">#E91E63</color>
+    <color name="Purple">#9C27B0</color>
+    <color name="DeepPurple">#673AB7</color>
+    <color name="Indigo">#3F51B5</color>
+    <color name="Indigo700">#303F9F</color>
+    <color name="Blue">#2196F3</color>
+    <color name="Blue100">#BBDEFB</color>
+    <color name="Blue700">#1976D2</color>
+    <color name="Blue900">#0D47A1</color>
+    <color name="LightBlue">#03A9F4</color>
+    <color name="Cyan">#00BCD4</color>
+    <color name="Teal">#009688</color>
+    <color name="Green">#4CAF50</color>
+    <color name="LightGreen">#8BC34A</color>
+    <color name="Lime">#CDDC39</color>
+    <color name="Yellow">#FFEB3B</color>
+    <color name="Amber">#FFC107</color>
+    <color name="Orange">#FF9800</color>
+    <color name="DeepOrange">#FF5722</color>
+    <color name="Brown">#795548</color>
+    <color name="Grey">#9E9E9E</color>
+    <color name="Grey600">#757575</color>
+    <color name="Grey900">#212121</color>
+    <color name="BlueGrey">#607D8B</color>
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
+
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="AppThemecolorPrimary">#2196F3</color>
+    <color name="AppThemecolorPrimaryDark">#2196F3</color>
+    <color name="AppThemetextColorPrimary">#FFFFFF</color>
+    <color name="AppThemetextColorHint">#666</color>
+    <color name="AppThemecolorAccent">#2196F3</color>
+    <color name="backgroundTint">#F44336</color>
+
+    <color name="TextView">#666</color>
+
+    <color name="MenuContainerbackground">#FFFFFF</color>
+
+    <color name="LoginContainerbackground">#ffffff</color>
+    <color name="ButtomSignInbackground">#2196F3</color>
+    <color name="ButtomSignIntextColor">#FFFFFF</color>
+
+    <color name="TemplateUserNicktextColor">#FFFFFF</color>
+
+    <color name="MainContainerbackground">#FFFFFF</color>
+    <color name="EditTexttextColor">#333333</color>
+
+    <color name="MenuButtonbackground">#FFFFFF</color>
+    <color name="MenuButtontextColor">#000000</color>
+
+    <color name="CardViewbackground">#FFFFFF</color>
+    <color name="Buttombackground">#2196F3</color>
+    <color name="ButtomtextColor">#FFFFFF</color>
+
+</resources>

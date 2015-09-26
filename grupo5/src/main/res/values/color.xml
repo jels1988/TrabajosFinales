@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ColorPrimary" type="color">#4caf50</item><!-- Color de los titulos -->
+    <item name="ColorDrawerMenu" type="color">#DDDDDD</item>
+    <item name="ColorItemMenu" type="color">#111111</item>
+    <item name="ColorRed" type="color">#ff0000</item>
+</resources>

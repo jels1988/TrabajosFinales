@@ -1,0 +1,252 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:elevation="4dp"
+        android:paddingTop="@dimen/tool_bar_top_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:text="@string/title_activity_main"
+            android:textSize="22dp"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="7"
+        android:background="#F5F5DC"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F5F5DC"
+                android:text="@string/text_nombres" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margens5"
+                android:id="@+id/edNombres"
+                android:inputType="text"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="13dp"
+                android:layout_marginLeft="@dimen/margens5"
+                android:id="@+id/tvNombres"
+                android:inputType="text"
+                android:text=""
+                android:textSize="12dp"
+                android:textColor="@color/ColorRed"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F5F5DC"
+                android:text="@string/text_apellidos" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margens5"
+                android:id="@+id/edApellidos"
+                android:inputType="text"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="13dp"
+                android:layout_marginLeft="@dimen/margens5"
+                android:id="@+id/tvApellidos"
+                android:inputType="text"
+                android:text=""
+                android:textSize="12dp"
+                android:textColor="@color/ColorRed"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F5F5DC"
+                android:text="@string/text_dni" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margens5"
+                android:id="@+id/edDNI"
+                android:inputType="number"
+                android:maxLength="8"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="13dp"
+                android:layout_marginLeft="@dimen/margens5"
+                android:id="@+id/tvDni"
+                android:inputType="text"
+                android:text=""
+                android:textSize="12dp"
+                android:textColor="@color/ColorRed"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F5F5DC"
+                android:text="@string/text_correo" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margens5"
+                android:id="@+id/edCorreo"
+                android:inputType="textEmailAddress"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="13dp"
+                android:layout_marginLeft="@dimen/margens5"
+                android:id="@+id/tvCorreo"
+                android:inputType="text"
+                android:text=""
+                android:textSize="12dp"
+                android:textColor="@color/ColorRed"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F5F5DC"
+                android:inputType="none"
+                android:text="@string/text_idioma" />
+
+            <Spinner
+                android:id="@+id/spIdioma"
+                android:layout_width="match_parent"
+                style="@style/spNA"
+                android:layout_marginLeft="@dimen/margens5"></Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F5F5DC"
+                android:inputType="none"
+                android:text="@string/text_estilo" />
+
+            <Spinner
+                android:id="@+id/spEstilo"
+                android:layout_width="match_parent"
+                style="@style/spNA"
+                android:layout_marginLeft="@dimen/margens5"></Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llref5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btActualizarDatos"
+                style="@style/btClinica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:padding="10dp"
+                android:text="@string/text_actualizar_usuario"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#8FBC8F">
+
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:gravity="center"
+            android:text="USUARIO" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+

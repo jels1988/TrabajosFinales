@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pe.lindley.tomapedidos.AgregaProductoActivity">
+    <item
+        android:id="@+id/agregaproducto_guardar_item"
+        android:orderInCategory="100"
+        android:title="@string/txt_guardar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/agregaproducto_eliminar_item"
+        android:orderInCategory="100"
+        android:title="@string/txt_eliminar"
+        app:showAsAction="never" />
+</menu>

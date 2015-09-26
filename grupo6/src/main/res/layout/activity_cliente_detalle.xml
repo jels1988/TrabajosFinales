@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cibertec.app.ferconsapedidos.ClienteDetalle"
+    style="@style/MainContainerPadding">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvProject"
+        style="@style/CardView.Client">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout style="@style/CardViewContainerPadding">
+
+                    <ImageView
+                        android:id="@+id/ivProject"
+                        android:src="@drawable/ic_person_black_36dp"
+                        android:alpha="0.70"
+                        style="@style/CardViewProjectImagenClient" />
+
+                    <TextView
+                        android:id="@+id/tvNombreClente"
+                        android:text="Razon social"
+                        style="@style/CardViewProjectTitle" />
+                    <TextView
+                        android:id="@+id/tvRUC"
+                        android:text="RUC"
+                        android:layout_below="@+id/tvNombreClente"
+                        style="@style/CardViewProjectDetail"/>
+                    <TextView
+                        android:id="@+id/tvDireccion"
+                        android:text="Direccion"
+                        android:layout_below="@+id/tvRUC"
+                        style="@style/CardViewProjectDetail"/>
+                    <TextView
+                        android:id="@+id/tvTelefono"
+                        android:text="Telefono"
+                        android:layout_below="@+id/tvDireccion"
+                        style="@style/CardViewProjectDetail"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <fragment android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

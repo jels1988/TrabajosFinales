@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_login3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_gravity="center"
+
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/image"
+            android:scaleType="fitXY"
+            android:src="@drawable/clinic"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margen2">
+
+            <!-- Otro comentario -->
+            <!--
+
+            <TextView
+                android:id="@+id/twUser"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/usuario"
+                />
+            -->
+
+            <EditText
+                android:id="@+id/etUser"
+                android:hint="@string/usuario"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margen2">
+
+            <!--<TextView-->
+                <!--android:id="@+id/twPass"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/pass"-->
+                <!--/>-->
+
+            <EditText
+                android:id="@+id/etPass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:hint="@string/pass"
+                android:password="true"
+                />
+
+
+        </LinearLayout>
+        <Button
+            style="@style/btClinica"
+            android:layout_height="wrap_content"
+            android:id="@+id/btIngresar"
+            android:text="@string/ingresar"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <!--style="@style/btClinica"-->
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

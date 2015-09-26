@@ -1,0 +1,88 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="TextSize">14dp</dimen>
+
+    <dimen name="PaddingContainer">16dp</dimen>
+
+    <dimen name="ImageLoginWidth">110dp</dimen>
+    <dimen name="ImageLoginHeight">110dp</dimen>
+    <dimen name="ImageLoginMarginBottom">40dp</dimen>
+
+    <dimen name="TextViewLoginMarginBottom">20dp</dimen>
+    <dimen name="TextViewLoginMarginTop">20dp</dimen>
+    <dimen name="TextViewLoginTextSize">25dp</dimen>
+    <dimen name="TextSizeLoginSignInButtom">16dp</dimen>
+
+    <dimen name="TextInputLayoutLoginWidth">320dp</dimen>
+
+    <dimen name="EditTextMarginTop">5dp</dimen>
+    <dimen name="EditTextMarginBottom">5dp</dimen>
+
+    <dimen name="EditTextTextSize">14dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+
+
+
+
+
+
+    <dimen name="AppThemetextSize">14dp</dimen>
+    <dimen name="MainContainerPaddingpadding">20dp</dimen>
+    <!--Login-->
+    <dimen name="LoginContainerpadding">16dp</dimen>
+    <dimen name="LoginImageViewlayout_width">130dp</dimen>
+    <dimen name="LoginImageViewlayout_height">130dp</dimen>
+    <dimen name="LoginImageViewlayout_marginBottom">40dp</dimen>
+    <dimen name="LoginTextInputLayoutlayout_width">270dp</dimen>
+    <dimen name="ButtomSignInpadding">5dp</dimen>
+    <dimen name="SignInButtomlayout_marginTop">10dp</dimen>
+    <dimen name="LoginTextViewtextSize">20dp</dimen>
+    <dimen name="LoginTextViewpaddingBottom">25dp</dimen>
+
+    <!--Menu-->
+    <dimen name="MenuContainerlayout_width">250dp</dimen>
+    <dimen name="MenuButtonlayout_height">40dp</dimen>
+    <dimen name="MenuContainerpadding">0dp</dimen>
+    <dimen name="MenuButtonpaddingTop">0dp</dimen>
+    <dimen name="MenuButtonpaddingBottom">0dp</dimen>
+    <dimen name="MenuButtonpaddingLeft">10dp</dimen>
+    <dimen name="MenuButtonpaddingRight">0dp</dimen>
+    <dimen name="MenuButtonlayout_margin">0dp</dimen>
+    <dimen name="MenuButtontextSize">12dp</dimen>
+    <dimen name="MenuButtondrawablePadding">15dp</dimen>
+
+    <dimen name="MenuContainerUserlayout_width">250dp</dimen>
+    <dimen name="MenuContainerUserlayout_height">108dp</dimen>
+
+    <dimen name="TemplateUserImagenlayout_width">50dp</dimen>
+    <dimen name="TemplateUserImagenlayout_heightp">50dp</dimen>
+    <dimen name="TemplateUserImagenlayout_margin">20dp</dimen>
+
+    <dimen name="TemplateUserNicklayout_marginLeft">25dp</dimen>
+    <dimen name="TemplateUserNicklayout_marginTop">78dp</dimen>
+    <dimen name="TemplateUserNicktextSize">16dp</dimen>
+
+    <!--General-->
+    <dimen name="EditTexttextSize">14dp</dimen>
+    <dimen name="EditTextlayout_marginTop">5dp</dimen>
+    <dimen name="EditTextlayout_marginBottom">5dp</dimen>
+
+    <dimen name="CardViewpadding">100dp</dimen>
+    <dimen name="CardViewProjectImagenlayout_width">45dp</dimen>
+    <dimen name="CardViewProjectImagenlayout_height">45dp</dimen>
+    <dimen name="CardViewProjectImagenlayout_margin">10dp</dimen>
+    <dimen name="CardViewProjectTitlelayout_marginTop">15dp</dimen>
+    <dimen name="CardViewProjectTitlelayout_marginLeft">65dp</dimen>´
+    <dimen name="CardViewProjectDetaillayout_marginLeft">65dp</dimen>
+    
+    <dimen name="CardViewProjectImagenClientlayout_marginTop">25dp</dimen>
+    <dimen name="CardViewProjectImagenClientlayout_marginLeft">10dp</dimen>
+    <dimen name="CardViewProjectImagenClientlayout_marginRight">10dp</dimen>
+
+    <dimen name="TitleTextViewtextSize">17dp</dimen>
+</resources>

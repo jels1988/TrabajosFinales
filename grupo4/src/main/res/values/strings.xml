@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="paciente">Paciente</string>
+    <string name="nuevo_paciente">Nuevo Paciente</string>
+    <string name="listar_pacientes">Listar Pacientes</string>
+    <string name="nueva_cita">Nueva Cita</string>
+    <string name="cerrar">Cerrar Sesión</string>
+    <string name="atencion">Atención</string>
+
+    <string name="fecha">Fecha</string>
+
+    <string name="inicio">Mis Pacientes</string>
+    <string name="usuario">Usuario</string>
+    <string name="clave">Clave</string>
+    <string name="ingresa">Ingresar</string>
+
+    <string name="cita">Cita</string>
+    <string name="hora_inicio">Inicio</string>
+    <string name="hora_fin">Fin</string>
+    <string name="pregunta">¿Visita a domicilio?</string>
+
+    <string name="lcita">Lista de Citas</string>
+    <string name="verHC">Historia Clínica</string>
+
+    <string name="error_fecha">Seleccionar fecha</string>
+    <string name="error_hora">Seleccionar hora</string>
+    <string name="error_hora_fin">Fin debe ser mayor a Inicio</string>
+    <string name="ok_eliminar_cita">Cita eliminada</string>
+    <string name="ok_insertar_cita">Nueva Cita registrada</string>
+    <string name="validaHoraFin">Fin debe ser mayor a Inicio</string>
+    <string name="error_motivo">Ingresar motivo</string>
+    <string name="error_tratamiento">Ingresar Tratamiento</string>
+
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="no_ingresa">Usuario o clave incorrectos</string>
+    <string name="error_usuario">Ingresa usuario</string>
+    <string name="error_clave">Ingresa clave</string>
+
+
+    <string name="historia_clinica">Historia Clínica</string>
+    <string name="ifecha_atencion">Fecha de Atencion</string>
+    <string name="imotivo">Motivo de la consulta:</string>
+    <string name="itratamiento">Tratamiento:</string>
+    <string name="nueva_atencion">Nueva Atención</string>
+
+    <string name="lpaciente">Lista de Pacientes</string>
+
+    <string name="genero">Género</string>
+    <string name="F">Femenino</string>
+    <string name="M">Masculino</string>
+    <string name="telefono">Teléfono fijo</string>
+    <string name="celular">Celular</string>
+    <string name="domicilio">Domicilio</string>
+    <string name="error_paciente">Ingresa nombre y apellidos</string>
+    <string name="error_genero">Selecciona el género</string>
+    <string name="ok_insertar_paciente">Nuevo Paciente registrado</string>
+    <string name="ok_actualizar_paciente">Datos actualizados</string>
+    <string name="calcel_actualizar_paciente">No se actualizó datos</string>
+    <string name="title_activity_activity_atencion">ActivityAtencion</string>
+    <string name="error_telefono">Ingrese correctamente el telefono</string>
+    <string name="error_celular">Ingrese correctamente el celular</string>
+    <string name="error_domicilio">Debe completar el domicilio apropiadamente.</string>
+    <string name="error_paciente_cita">Debe seleccionar un Paciente</string>
+
+
+    <string name="hello_world">Hello world!</string>    
+
+    <string name="Motivo">Motivo de la Consulta</string>
+    <string name="Tratamiento">Tratamiento</string>
+    <string name="Gps">Ubicación GPS</string>
+    <string name="error_fecha_atencion">Selecionar fecha</string>
+    <string name="app_version">1.0.0</string>
+    
+    <string name="action_settings">Guardar</string>
+    <string name="ubicaciongps">Ubicación GPS</string>
+    <string name="error_ubicaciongps">Debe obtener la ubicación GPS</string>
+
+</resources>
